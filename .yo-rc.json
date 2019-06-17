@@ -1,0 +1,42 @@
+{
+  "generator-jhipster": {
+    "applicationType": "monolith",
+    "gitCompany": "",
+    "baseName": "LumenautBanking",
+    "packageName": "com.triippztech.application",
+    "packageFolder": "com/triippztech/application",
+    "serverPort": 8080,
+    "serviceDiscoveryType": false,
+    "authenticationType": "jwt",
+    "uaaBaseName": "../uaa",
+    "cacheProvider": "ehcache",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "postgresql",
+    "searchEngine": false,
+    "enableSwaggerCodegen": false,
+    "messageBroker": false,
+    "buildTool": "maven",
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "testFrameworks": [],
+    "enableTranslation": false,
+    "nativeLanguage": "en",
+    "languages": [
+      "en"
+    ],
+    "clientFramework": "react",
+    "jhiPrefix": "jhi",
+    "jhipsterVersion": "6.1.0",
+    "jwtSecretKey": "MGEwNmYyZGJjODNhN2IwMjExMWZlNTlkOGI4MTU0OTc2MTZmMmY2YzY0ZDI2ODY2YWZjNGJiZjgxNWVkNjcxNjU3NDk4MGNiYWJiZmIyMGNhNDViZTQyMWQ1MTA5MWMxYWQ1NDdjYTNiODZlMTBiNDhjMjg0MGY0ODkyY2FkNDU=",
+    "clientTheme": "none",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": []
+  },
+  "git-provider": "GitHub",
+  "git-company": "triippz-tech",
+  "repository-name": "LumenautBanking"
+}

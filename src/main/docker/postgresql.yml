@@ -1,0 +1,11 @@
+version: '2'
+services:
+  lumenautbanking-postgresql:
+    image: postgres:11.3
+    # volumes:
+    #     - ~/volumes/jhipster/LumenautBanking/postgresql/:/var/lib/postgresql/data/
+    environment:
+      - POSTGRES_USER=LumenautBanking
+      - POSTGRES_PASSWORD=
+    ports:
+      - 5432:5432
